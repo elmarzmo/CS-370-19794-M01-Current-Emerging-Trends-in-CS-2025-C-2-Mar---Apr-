@@ -1,22 +1,45 @@
-# CS-370-19794-M01-Current-Emerging-Trends-in-CS-2025-C-2-Mar---Apr-
+Treasure Hunt Reinforcement Learning Project
+## Overview
 
+This project explores reinforcement learning by training an agent to navigate an 8×8 maze environment.
+The agent receives rewards based on its actions and learns an optimal path using a neural-network-based Q-learning approach.
 
-What do computer scientists do and why does it matter?
+The model gradually improves by:
 
-Computer scientists study and develop theories, algorithms, and systems that drive technology forward.
-They solve complex problems and build software or hardware that impacts everyday life.
-Their work matters because it shapes how we interact with the world and influences almost every industry today.
+Exploring random moves
 
+Evaluating rewards
 
-How do I approach a problem as a computer scientist?
+Updating predictions to optimize future decisions
 
-I approach problems by first understanding the requirements and constraints, then breaking the problem down into smaller pieces. 
-I research existing solutions, design possible approaches, test them, and iterate based on feedback or performance. 
- Problem-solving as a computer scientist involves logic, creativity, and continuous learning.
+## Technologies Used
 
- 
-What are my ethical responsibilities to the end user and the organization?
+Python
 
-As a computer scientist, I have a responsibility to create systems that are secure, accessible, and respectful of user privacy. 
-I must ensure that the technology I develop does not cause harm and serves the best interest of users and the organization.
-This includes writing ethical code, being transparent about data usage, and considering the long-term consequences of my designs.
+TensorFlow / Keras
+
+NumPy
+
+Jupyter Notebook
+
+## Key Features
+
+Custom 8×8 "Treasure Hunt" maze environment
+
+Q-learning reinforcement algorithm
+
+Neural network policy for predicting optimal moves
+
+Visual meter output showing progress
+
+Simulation code that lets the agent navigate the maze after training
+
+## What I Learned
+
+How Q-learning works for decision-making tasks
+
+How to build and train a simple neural network with Keras
+
+How reinforcement learning agents improve through trial and error
+
+How to structure an RL environment (states, actions, rewards)
